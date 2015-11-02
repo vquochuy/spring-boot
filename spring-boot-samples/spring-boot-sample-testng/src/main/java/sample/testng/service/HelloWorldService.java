@@ -28,5 +28,9 @@ public class HelloWorldService {
 	public String getHelloMessage() {
 		return "Hello " + this.name;
 	}
+	public String getHelloMessage(String name) {
+		this.name = name;
+		return "Hello " + this.name;
+	}
 
 }
